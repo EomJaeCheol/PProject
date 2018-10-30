@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	/* // 범위를 넘엇을시 넘는 영역 숨김 */
+	background-position: 0 0;
+	overflow-y: auto;
+}
+
+aside {
+	width: 250px;
+	position: fixed;
+	background: white;
+	color: black;
+	overflow: hidden;
+	float: left;
+}
+
+/* nav{
+	margin-left: 6%;
+	width: 50%;
+	height: 50px;
+	background: white;
+	text-align: right;
+}
+nav>a{
+	text-decoration:none;
+	letter-spacing:2px;
+	border-left:1px solid #999;
+	color:#ccc;
+} */
+nav>div{
+	width:1067px;
+	text-align: right;
+}
+div>a{
+	text-decoration:none;
+	letter-spacing:2px;
+	font:bold 13px "돋움";
+	color:#888888;
+	border-left:1px solid #999;
+}
+nav>div>a:FIRST-CHILD{border-left:none;}
+
+.slide{
+	margin-left: 230px;
+	margin-right: 500px;
+	margin-bottom: 100px;
+	background: white;
+	background:fixed;
+	width:837px;
+	height:630px;
+	position: fixed;
+	background-size: contain;
+}
+.slide>img{
+	width:837px;
+	height:830px;
+	background-repeat: no-repeat;
+}
+.test>img{
+		margin: 35px 45px 40px 30px;
+}
+.left_menu{
+	width:240px;
+	height:400px;
+}
+.id,.password{
+	width:130px;
+}
+.login{
+	/* border:1px solid #dee3eb; */
+	width:70px;
+	height: 40px;
+}
+.login>input{
+	background-image:url("../img/login.png");
+	width:70px;
+	height:60px;
+	background-repeat: no-repeat;
+}
+table{
+	border-collapse: collapse;
+	border-top: 10px solid #ccc;
+}
+.join{
+	background: #BDBDBD;
+	color:black;
+	font:bold 18px ;
+    letter-spacing: 4px;
+	text-align:center;
+	border-collapse: collapse;
+	width:205px;
+	height:40px;
+	line-height:3px;
+}
+.info>input{
+	background: #BDBDBD;
+	color:black;
+	letter-spacing: 1px;
+}

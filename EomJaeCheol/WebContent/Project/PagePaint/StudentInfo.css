@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+.NaviHistory{
+    width: 815px;
+    margin-left: 8px;
+    font-family: Dotum;
+    font-size: 12px;
+    color: #000;
+    line-height: 26px;
+    background: url(../img/Content_DotLine.gif) bottom repeat-x;
+}
+.ContentsArea{
+	width: 800px;
+    padding: 10px 15px;
+    font-family: Dotum;
+    font-size: 12px;
+    height: 93px;
+}
+.ContentsTitle{
+	margin-left: 8px;
+    height: 25px;
+    font-family: Dotum;
+    font-size: 14px;
+}
+.TableStyle00 th{
+	background: #f7f7f8;
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: normal;
+    color: #010101;
+    border-top:#afafaf solid 1px;
+    border-left:#afafaf solid 1px;
+    border-right: #afafaf solid 1px;
+    border-bottom: #afafaf solid 2px;
+    padding: 3px 5px;
+    line-height: 16px;
+}
+.TableStyle00 td{
+    background: #FFF;
+    font-family: Dotum;
+    font-size: 12px;
+    color: #010101;
+    border-right: #afafaf solid 1px;
+    border-bottom: #afafaf solid 2px;
+    border-top:#afafaf solid 1px;
+    padding: 3px 5px;
+    line-height: 16px;
+}
+.TabArea {
+    width: 100%;
+    margin: 10px 0;
+    line-height: 35px;
+}
+.TabArea>input{
+    padding: 0;
+    border: none;
+    font-family: Dotum;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+.tabmenu_05_on {
+    margin: 5px 0 0 2px;
+    width: 79px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../img/TabMenu.jpg) no-repeat bottom;
+    font-weight: bold;
+    color: #FFF;
+}
+.tabmenu_05 {
+    margin: 10px 0 0 2px;
+    width: 79px;
+    height: 25px;
+    line-height: 25px;
+    background: url(../img/TabMenu_on.jpg) no-repeat bottom;
+    font-weight: normal;
+    color: #666;
+}
+.TableStyle01 {
+    border-top: #afafaf solid 1px;
+    border-left: #afafaf solid 1px;
+    border-bottom: #afafaf solid 1px;
+}
+.TableStyle01 th {
+    background: #f7f7f8;
+    font-family: Dotum;
+    font-size: 12px;
+    font-weight: normal;
+    color: #010101;
+    border-right: #afafaf solid 1px;
+    border-bottom: #afafaf solid 1px;
+    padding: 3px 5px;
+    line-height: 16px;
+}
+.TableStyle01 td {
+    font-family: Dotum;
+    font-size: 12px;
+    color: #010101;
+    border-right: #afafaf solid 1px;
+    border-bottom: #afafaf solid 1px;
+    padding: 3px 5px;
+    line-height: 16px;
+}
+.Menu>a{cursor:pointer;}
+.Menu>ul{display:none;}
+.Menu{
+	 vertical-align: middle;
+	 text-align: center;
+}
+.SubMenu{
+	margin-top:-40px;
+	margin-left:10px;
+	cellpadding:0;
+	cellspacing:0; 
+}
+.Title_Menu{
+	display:block;
+	font-family: Dotumche;
+    font-size: 12px;
+    text-align: justify;
+}
+.Title_Menu>img{
+	vertical-align: middle;
+}
+.InfoHak{
+	 margin-left: 2px; 
+	margin-top: -3px;
+}
+.Class{
+	margin-left: 5px; 
+	margin-top: -2px;
+}
+.InfoHak>li{
+	display: inline-block;
+	line-height: 18px;
+	margin-left:-10px;
+    width: 100%;
+	list-style: none;
+	font-family: Dotumche;
+	font-size: 12px;
+	text-align: left;
+}
+.Hak{
+	color: black;
+    text-decoration: none;
+}
+.Class>li{
+	display: block;
+	margin-left:0em;
+    width: 100%;
+	list-style: none;
+	font-family: Dotumche;
+	font-size: 12px;
+	text-align: left;
+}
+

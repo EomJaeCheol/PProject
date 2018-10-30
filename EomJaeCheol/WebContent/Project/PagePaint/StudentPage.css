@@ -1,0 +1,261 @@
+@CHARSET "UTF-8";
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	/* // 범위를 넘엇을시 넘는 영역 숨김 */
+	background-position: 0 0;
+	overflow-y: auto;
+}
+aside {
+	width: 250px;
+	position: fixed;
+	background: white;
+	color: black;
+	overflow: hidden;
+	float: left;
+}
+nav>div{
+	width:1067px;
+	text-align: right;
+}
+div>a{
+	text-decoration:none;
+	letter-spacing:2px;
+	font:bold 13px "돋움";
+	color:#888888;
+	border-left:1px solid #999;
+}
+nav>div>a:FIRST-CHILD{border-left:none;}
+
+.slide{
+	margin-left: 230px;
+	margin-right: 500px;
+	margin-bottom: 100px;
+	background: white;
+	background:fixed;
+	width:837px;
+	height:630px;
+	position: fixed;
+	background-size: contain;
+}
+.slide>img{
+	width:837px;
+	height:830px;
+	background-repeat: no-repeat;
+}
+.test>img{
+		margin: 25px 25px 40px 40px;
+}
+.left_menu{
+	width:200px;
+	height:1000px;
+	border-right: 1px solid #ccc;
+	border-top: 18px solid #BDBDBD;
+}
+.info>input{
+	background: #BDBDBD;
+	color:black;
+	letter-spacing: 1px;
+}
+.sub_menu{
+
+	height: 120px;
+}
+.top_table{
+	width: 200px;
+	height: 90px;
+}
+.Second_table{
+	margin-top: -450px;
+	width: 200px;
+	background-color: #e7e7e7;
+}
+.main_tr{
+	text-align: center;
+}
+.log_td{
+	padding-top: 5px;
+    line-height: 26px;
+    text-align: center;
+    font-family: Dotum;
+    font-size: 12px;
+    border-right: 1px solid #6E6E6E;
+}
+.Up_td{
+	padding-top: 5px;
+    line-height: 26px;
+    text-align: center;
+    font-family: Dotum;
+    font-size: 12px;
+
+}
+.log{
+    text-decoration: none;
+}
+.log>b{
+	color:black;
+}
+.infoup{
+	font-size:13px;
+	text-decoration: none;
+	color: #000;
+}
+.infoupa{
+	font-size:13px;
+	text-decoration: none;
+	color: #000;
+}
+.bot_div{
+	height: 65px;
+}
+.bot_sub{
+	width: 183px;
+	height: 25px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.img_td>img{
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.aa{
+	width:1000px;
+	height:50px;
+}
+.info_td{
+	width:50px;
+	text-align: center;
+}
+.Top_menu1{
+	display:block;
+	margin-left: 200px;
+	width: 110px;
+    height: 55px;
+    color: #ececff;
+    background: url(../img/테이블1.png) no-repeat;
+}
+.Top_menu2{
+	width: 110px;
+    height: 55px;
+    color: #ececff;
+    background: url(../img/테이블2.png) no-repeat;
+}
+.Top_menu3{
+	width: 110px;
+    height: 55px;
+    color: #ececff;
+    background: url(../img/테이블3.png) no-repeat;
+}
+.Top_menu4{
+	width: 110px;
+    height: 55px;
+    color: #ececff;
+    background: url(../img/테이블4.png) no-repeat;
+}
+.Top_menu5{
+	width: 450px;
+    color: #ececff;
+    background: url(../img/td.png) no-repeat;
+}
+.main_area{
+	border: 1px solid #ececff;
+	width:870px;
+	height: 580px;
+	margin-left: 230px;
+	margin-top: -110px;
+}
+td.today {
+ 	border:1px solid #e0e0e0;
+	background-color:#ffffff;
+	text-align:center;
+	width:20px;
+	height:25px;
+	font-family:tahoma;
+	font-size:11px;
+	padding:3px;
+	color:#ff0000;
+ }  
+ td.workday {
+   	border:1px solid #c0c0c0;
+	width:36px;
+	font-family:돋움;
+	font-size:11px;
+	padding:3px;
+  }  
+.sunday{
+	border:1px solid #c0c0c0;
+	background-color:#e0e0e0;
+	width:36px;
+	font-family:돋움;
+	font-size:11px;
+	padding:3px;
+  }  
+.satday{
+ 	border:1px solid #c0c0c0;
+	width:36px;
+	font-family:돋움;
+	font-size:11px;
+	padding:3px;
+    }  
+.week{
+	border:1px solid #c0c0c0;
+	background-color:#e0e0e0;
+	width:36px;
+	font-family:돋움;
+	font-size:11px;
+	padding:3px;
+ } 
+.preNext{
+	color: #000099;
+	text-decoration: none;
+}  
+ .MainT{
+	display:block;
+	border:1px solid darkgray;
+	width:300px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+/* input.selDate {
+	border: 0.5pt solid #174AB2 width: 165px;
+	   text-align: center;
+	 } */
+.main_calender_info{
+	border:1px solid darkgray;
+	width: 470px;
+	height:250px;
+	margin-left: 45%;
+	margin-top: -175px;
+	font-family: Dotum;
+    font-size: 12px;
+}
+.Ftr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.getCon{
+	border:1px solid darkgray;
+	width: 600px;
+	height:150px;
+	margin: auto;
+	margin-top: 10px;
+}
+.getCon>.getCon_sub{
+	 border:1px solid darkgray;
+	 font-family: Dotum;
+     font-size: 12px;
+}
+.GridViewDivScroll{
+   border-right: #afafaf solid 1px;
+    border-top: #afafaf solid 0px;
+    border-left: #afafaf solid 1px;
+    border-bottom: #afafaf solid 1px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+

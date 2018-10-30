@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 디비연결시 사용  -->
+<!-- localhost와 itwill 자리에 다른 사람의 디비를 안다면 데이터 접근간으! -->
+<context>
+	<Resource
+		name="jdbc/Work"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/DatabaseContents?serverTimezone=UTC"
+		username="PSDB"
+		password="wocjf159ab"
+	/>
+
+</context>
